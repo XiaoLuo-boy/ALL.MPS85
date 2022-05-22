@@ -57,5 +57,6 @@ MPS85 <- function(expr.data,
   MPS85.result <- list(predict.class = Pred, gsvaresult = gsvaresult)
 
   message("MPS85 finished")
+  return(MPS85.result)
 }
 
