@@ -19,7 +19,7 @@ MPS85 <- function(expr.data,
   #GSVA分析
   message("Step1: Now we will perform GSVA analysis... \n Please wait a minite!")
   #data(genelist)
-  gsvaresult2<- gsva(expr = as.matrix(expr.data),
+  gsvaresult<- gsva(expr = as.matrix(expr.data),
                      gset.idx.list = genelist,
                      method=gsva.methods,
                      verbose=T,
