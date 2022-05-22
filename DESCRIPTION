@@ -1,0 +1,18 @@
+Package: ALL.MPS85
+Title: ALL Metabolic Typology Based on Transcriptomic Data
+Version: 1.0.0
+Authors@R: c(
+       person("Xiaojie", "Liang",email = "liangxiaojiecom@163.com", role = c("aut")),
+       person("Baiwei", "Luo", email = "2734782653@qq.com",role = c("aut", "cre"))
+       )
+Maintainer: Baiwei Luo <2734782653@qq.com>
+Description: Based on the built-in training data metabolic types and the GSVA scores of 85 metabolic pathways, this package performs metabolic typing of the samples based on the GSVA results of the 85 metabolic pathways with the transcriptome data. Metabolic types include: MPS1, MPS2 and MPS3.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    GSVA,
+    pamr,
+    R (>= 2.10)
