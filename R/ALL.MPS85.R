@@ -9,7 +9,7 @@
 #' @import GSVA
 #' @import pamr
 #' @return MPS85.result
-#' @export
+#' @export MPS85.result
 
 MPS85 <- function(expr.data,
                   gsva.methods = "gsva",
